@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu container">
+        <img class="logo-1" src="imagenes/logo.svg" alt="" />
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="imagenes/menu.png" class="menu-icono" alt="" />
+        </label>
+        <nav class="navbar">
+          <div class="menu-1">
+            <ul>
+              <li><a href="https://www.instagram.com/p/DAUMWHJhbyk/?igsh=eGwzcDF5emRrb3pp">Desayunos</a></li>
+              <li><a href="https://www.instagram.com/p/C_3HFOEJpoO/?igsh=MjdwNmhqZzNzMnd2">Bolones</a></li>
+              <li><a href="https://w.app/EhLQ1T">Ordenar</a></li>
+            </ul>
+          </div>
+          <img class="logo-2" src="imagenes/logo.svg" alt="" />
+          <div class="menu-2">
+            <div class="socials">
+              <a
+                href="https://www.facebook.com/share/3gTk5suxsoXQJh3b/?mibextid=LQQJ4d"
+              >
+                <div class="social">
+                  <img src="imagenes/s1.svg" alt="" />
+                </div>
+              </a>
+              <a
+                href="https://www.tiktok.com/@restaurante.danielito?_t=8q14S0LLHkE&_r=1"
+              >
+                <div class="social">
+                  <img src="imagenes/s2.svg" alt="" />
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/p/C_1ayypvjMV/?igsh=MTZyaXVsaG1zeHJyNQ=="
+              >
+                <div class="social">
+                  <img src="imagenes/s3.svg" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="header-content container">
+        <div class="swiper mySwiper-1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider">
+                <div class="slider-txt">
+                  <h1>Bolones de Queso</h1>
+                  <p>
+                    Prueba nuestros deliciosos bolones de queso. Hechos con los mejores ingedientes. Y los mas conocidos de toda la ciudad de Machala.
+                  </p>
+                  <div class="botones">
+                    <a href="https://w.app/EhLQ1T" class="btn-1">Ordenar</a>
+                    <a href="https://www.instagram.com/p/DAUM0ZhhJnH/?igsh=MThuZW1uMDB3YWZuMg==" class="btn-1">Ver mas</a>
+                  </div>
+                </div>
+                <div class="slider-img">
+                  <img src="imagenes/BolonQueso.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider">
+                <div class="slider-txt">
+                  <h1>Bolones de Chicharron</h1>
+                  <p>
+                    Los mejores bolones de Chicharro solo los encuentras aqui en Danielito. Mas de 23 años cumpliendo con el paladar de los queridos Machaleños.
+                  </p>
+                  <div class="botones">
+                    <a href="https://w.app/EhLQ1T" class="btn-1">Ordenar</a>
+                    <a href="https://www.instagram.com/p/C_3HFOEJpoO/?igsh=MjdwNmhqZzNzMnd2" class="btn-1">Ver mas</a>
+                  </div>
+                </div>
+                <div class="slider-img">
+                  <img src="imagenes/BolonChicharron.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider">
+                <div class="slider-txt">
+                  <h1>Leoncillo</h1>
+                  <p>
+                    El plato insignia del Restaurante Danielito con sus ingredientes unicos en sabor. Les presentamos el plato Estrella "Leoncillo".
+                  </p>
+                  <div class="botones">
+                    <a href="https://w.app/EhLQ1T" class="btn-1">Ordenar</a>
+                    <a href="https://www.instagram.com/p/C_1ayypvjMV/?igsh=MTZyaXVsaG1zeHJyNQ==" class="btn-1">Ver mas</a>
+                  </div>
+                </div>
+                <div class="slider-img">
+                  <img src="imagenes/Leoncillo.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-pagination"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="products">
+      <div class="tabs container">
+        <input
+          type="radio"
+          name="tabs"
+          id="tab1"
+          checked="checked"
+          class="tabInput"
+          value="1"
+        />
+        <label for="tab1">Platano Verde</label>
+        <div class="tab">
+          <div class="swiper mySwiper-2" id="swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Bolon de Queso</h4>
+                    <img src="imagenes/BolonQueso.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Top #3</h4>
+                    <p>Los mejores del area, pidelos para llevar</p>
+                    <span class="price">$2.50</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Bolon de Chicharron</h4>
+                    <img src="imagenes/BolonChicharron.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Top #2</h4>
+                    <p>Para que sientas lo crocante del chicharron en tu paladar</p>
+                    <span class="price">$3.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Leoncillo</h4>
+                    <img src="imagenes/Leoncillo.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Top #1</h4>
+                    <p>El plato mas vendido de todo el Danielito y su plato insignia de la ciudad</p>
+                    <span class="price">$5.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+
+        <input
+          type="radio"
+          name="tabs"
+          id="tab2"
+          checked="checked"
+          class="tabInput"
+          value="2"
+        />
+        <label for="tab2">Secos</label>
+        <div class="tab">
+          <div class="swiper mySwiper-2" id="swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Seco de Chancho</h4>
+                    <img src="imagenes/Secos.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Desayuno o Almuerzo</h4>
+                    <p>Top #3 </p>
+                    <span class="price">$3.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Guatita</h4>
+                    <img src="imagenes/Guatita.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Desayuno o Almuerzo</h4>
+                    <p>Top #1 Tradicion de Danielito</p>
+                    <span class="price">$3.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Seco de Pollo</h4>
+                    <img src="imagenes/Pollo.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Desayuno o Almuerzo</h4>
+                    <p>Top #2</p>
+                    <span class="price">$3.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+
+        <input
+          type="radio"
+          name="tabs"
+          id="tab3"
+          checked="checked"
+          class="tabInput"
+          value="3"
+        />
+        <label for="tab3">Mas Ordenados</label>
+        <div class="tab">
+          <div class="swiper mySwiper-2" id="swiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Leoncillo</h4>
+                    <img src="imagenes/leoncillos.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Leoncillo #1</h4>
+                    <p>Calidad premium</p>
+                    <span class="price">$5.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Lengua Guisada</h4>
+                    <img src="imagenes/lengua.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Lengua Guisada #2</h4>
+                    <p>Calidad premium</p>
+                    <span class="price">$3.50</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <h4>Bolon de Queso</h4>
+                    <img src="imagenes/boloncito.jpg" alt="" />
+                  </div>
+                  <div class="product-text">
+                    <h4>Bolon</h4>
+                    <p>Calidad premium</p>
+                    <span class="price">$2.50</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="info container">
+      <div class="info-img">
+        <img src="imagenes/logo.svg" alt="" />
+      </div>
+
+      <div class="info-txt">
+        <h2>Informacion</h2>
+        <p>Si quieres saber todo las delicias que ofrece El Danielito puedes checar nuestro menu aqui o llamarnos directamente.</p>
+        <a href="#" class="btn-2">Ver menu</a>
+        <a href="https://w.app/EhLQ1T" class="btn-2">Whatsapp</a>
+      </div>
+    </section>
+
+    <section class="horario">
+      <div class="horario-info container">
+        <h2>Horario</h2>
+        <div class="horario-txt">
+          <div class="txt">
+            <h4>Direccion</h4>
+            <p>Napoleon mera/ Arizaga y manuel serrano. (Diagonal al colegio Eloy Alfaro)</p>
+          </div>
+          <div class="txt">
+            <h4>Horario</h4>
+            <p>Lunes a Domingo : 7am - 3pm</p>
+
+          </div>
+          <div class="txt">
+            <h4>Telefono</h4>
+            <p>0991715903</p>
+            <p>Miercoles a Sabado : 4pm - 10pm (solo delivery)</p>
+          </div>
+          <div class="txt">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+              <a href="#">
+                <div class="social">
+                  <img src="imagenes/s1.svg" alt="" />
+                </div>
+              </a>
+              <a href="#">
+                <div class="social">
+                  <img src="imagenes/s2.svg" alt="" />
+                </div>
+              </a>
+              <a href="#">
+                <div class="social">
+                  <img src="imagenes/s3.svg" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15933.336368094868!2d-79.9564627!3d-3.2669994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90330e5d94615267%3A0xbcb8f27319a17e34!2sDanielito%20Cevicher%C3%ADa%20Restaurant!5e0!3m2!1sen!2sus!4v1727190307988!5m2!1sen!2sus"
+      width="100%"
+      height="500"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <section></section>
+
+    <footer class="footer container">
+      <img class="logo-2" src="imagenes/logo.svg" alt="" />
+      <div class="links">
+        <h4>Danielito es un Restaurante Cevicheria fundado hace mas de 23 años, contamos con servicio de catering, eventos, deliverys y muchas cosas mas. Para cualquier noticia o si deseas saber el menu de almuerzos diarios del Danielito puedes unirte a nuestro grupo de Whatsapp totalmente gratis (publicidad y menu diario) aqui!.</h4>
+        <ul>
+          <li><a href="https://w.app/EhLQ1T">GRUPO DE WHATSAPP</a></li>
+        </ul>
+      </div>
+      <div class="links">
+
+      <div class="links">
+        <h4>Siguenos en Redes Sociales para ver todo lo nuevo de Danielito</h4>
+        <div class="socials">
+          <a
+            href="https://www.facebook.com/share/3gTk5suxsoXQJh3b/?mibextid=LQQJ4d"
+          >
+            <div class="social">
+              <img src="imagenes/s1.svg" alt="" />
+            </div>
+          </a>
+          <a
+            href="https://www.tiktok.com/@restaurante.danielito?_t=8q14S0LLHkE&_r=1"
+          >
+            <div class="social">
+              <img src="imagenes/s2.svg" alt="" />
+            </div>
+          </a>
+          <a
+            href="https://www.instagram.com/p/C_1ayypvjMV/?igsh=MTZyaXVsaG1zeHJyNQ=="
+          >
+            <div class="social">
+              <img src="imagenes/s3.svg" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
